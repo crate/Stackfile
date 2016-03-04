@@ -1,0 +1,12 @@
+crate1:
+  image: 'crate:latest'
+  command: 'crate -Des.network.publish_host=_ethwe:ipv4_'
+  ports:
+    - '4200:4200'
+    - '4300:4300'
+crate2:
+  image: 'crate:latest'
+  command: 'crate -Des.network.publish_host=_ethwe:ipv4_'
+crate3:
+  image: 'crate:latest'
+  command: 'crate -Des.network.publish_host=_ethwe:ipv4_'
